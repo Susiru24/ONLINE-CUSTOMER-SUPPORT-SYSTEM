@@ -1,0 +1,106 @@
+.fa-cc-paypal {
+    font-size: 50px;
+    color: #3b7bbf;
+  }
+
+.fa-cc-visa {
+    font-size: 50px;
+    color:#172274;
+}
+
+.fa-cc-mastercard {
+    font-size: 50px;
+    color:black;
+}
+
+.fa-cc-amex {
+    font-size: 50px;
+    color:#002663;
+}
+
+.fa-facebook-square{
+    font-size: 50px;
+    color: #4267B2;
+}
+
+.fa-instagram-square{
+    font-size: 50px;
+    color: #C13584;
+}
+
+.fa-twitter-square{
+    font-size: 50px;
+    color: #1DA1F2;
+}
+
+.fa-youtube{
+    font-size: 50px;
+    color: #FF0000;
+}
+
+.payment-methods h3
+{
+    text-align: center;
+}
+
+.payment-methods-options i{
+    padding:5px;
+}
+
+.countries h3
+{
+    text-align: center;
+    padding-bottom: -50px;
+}
+
+.countries ul{
+    list-style:none;
+}
+
+.countries img
+{
+    height: 30px;
+}
+
+.social-media i
+{
+    padding:5px;
+}
+
+.social-media h3
+{
+    text-align: center;
+}
+
+.countries-items
+{
+    display: flex;
+}
+
+.country-name li
+{
+    padding:0px;
+    margin: 0mm;
+}
+
+.country-icon li
+{
+    padding: 1.4mm;
+    margin-top: 0mm;
+    margin-bottom: 0mm;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+body
+{
+    margin: 0px;
+}
+h3 {
+    margin:2mm;
+}

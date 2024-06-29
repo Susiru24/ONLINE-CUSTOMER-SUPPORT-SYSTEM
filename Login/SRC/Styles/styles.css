@@ -1,0 +1,117 @@
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-options {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.login-options label
+{
+  padding-top: 6px;
+}
+
+.login-option {
+  margin-right: 25px;
+}
+
+.login-option input[type="radio"] {
+  vertical-align: middle;
+  margin-left: 60px;
+}
+
+.login-option label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember-me {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember-me label{
+  padding-top: 6px;
+}
+
+.forgot-pwd {
+  padding-top: 6px;
+  text-align: right;
+}
+
+a
+{
+  text-decoration: none;
+  color: #3d5a80;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #3d5a80;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.divider {
+  margin-bottom: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link a {
+  color: #3d5a80;
+  text-decoration: none;
+}

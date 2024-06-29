@@ -1,0 +1,73 @@
+fieldset
+{
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.form-section
+{
+  width: 50%;
+}
+
+.form-middle-section
+{
+  border-left: 3px solid black;
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+form
+{
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+input[type="submit"]{
+  border-radius: 5px;
+  height: 30px;
+  width: 190px;
+  color: white;
+  background-color: #3d5a80;
+  float: right;
+}
+
+button[type="submit"]
+{
+  border-width: 2px;
+  border-radius: 5px;
+  margin-left: -50px;
+  color: white;
+  background-color: #3d5a80;
+}
+
+input{
+  width: 180px;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.main
+{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.login-options
+{
+  display: flex;
+  justify-content: center;
+}
+
+.login-option label
+{
+  margin-left: -75px;
+  margin-right: 75px;
+}
+
